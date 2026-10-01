@@ -29,7 +29,7 @@ The project is a working prototype combining Arduino firmware, a Windows applica
 
 ## Controller Sketch
 
-![Sketch of the IR remote controller](/controller-sketch.png)
+![Sketch of the IR remote controller](/project_sketch.png)
 
 ## How It Works
 
@@ -40,7 +40,7 @@ The project is a working prototype combining Arduino firmware, a Windows applica
 5. Once connected, valid remote commands are sent to the application as text-based instructions.
 6. The application translates these instructions into virtual keyboard events using the Windows API. Periodic keep-alive messages verify that communication remains active.
 
-Power on/off operation uses the physical power button. The effect of pressing it depends on the computer’s power-button configuration.
+Power on/off operation uses the physical power button. The effect of pressing it depends on the computer’s power button configuration.
 
 ## Software
 
@@ -61,7 +61,7 @@ The current implementation requires the companion application to be running for 
 
 ## Prototype
 
-![Photo of the assembled IR remote controller](controller-photo.jpg)
+![Photo of the assembled IR remote controller](remote-controller.jpg)
 
 ## Known Limitations
 
